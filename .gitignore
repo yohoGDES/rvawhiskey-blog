@@ -1,0 +1,45 @@
+# Ignore Node Modules
+node_modules/*
+
+# Ignore Compiled Distribution Files
+# public
+app/dist/*
+# public/**/*
+
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.zip
+*.tgz
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+*.orig
+*.psd
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+.sass-cache
