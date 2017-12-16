@@ -1,0 +1,15 @@
+.header {
+    margin:3% 0;
+    // padding-top: calc(60px + (90) * ((100vw - 320px) / (1280)));
+    @include mq($desktop) {
+        margin:8% 0;
+    }
+}
+.header__logo {
+    width: calc(280px + (145) * ((100vw - 320px) / (1280)));
+    margin: 0 auto;
+    img {
+        width:100%;
+        height:auto;
+    }
+}

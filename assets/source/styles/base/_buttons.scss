@@ -1,0 +1,62 @@
+// Button Mixin - $display = inline, block, inline-block;
+@mixin button($display) {
+	// ref: "settings/_mixins.scss"
+	@include buttonColor;
+    @include buttonSize;
+	color:$white;
+	font-family:$font-secondary;
+	font-weight:bold;
+	cursor: pointer;
+  	display:$display;
+	border-radius:3px;
+  	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	transition: all 275ms;
+	@include mq(900px) {
+		&:hover {
+			color:$white;
+		}
+		&:focus {
+	        outline: 1px dotted #888;
+		}
+	}
+	&:disabled {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor: no-drop;
+	}
+}
+
+// Button Mixin - Background, Background Hover, Border Color, Border Hover, Display:''
+.msf-button {
+	@include button(inline-block);
+	color:$white !important;
+
+	&.ghost {
+        //scss-lint:disable ImportantRule
+        //James Cerrato 11Jan2016 : Cleaning linter log, temporarily disabling error.
+        box-shadow: 0 0 0 2px #0d74af inset;
+        color: #0d74af !important;
+
+        &:hover,
+		&:focus {
+            background: #fff !important;
+            box-shadow: 0 0 0 2px darken(#0d74af, 20%) inset;
+            color: darken(#0d74af, 20%) !important;
+        }
+    }
+
+	&.reversed {
+        &.ghost {
+            box-shadow: 0 0 0 2px #fff inset;
+            color: #fff !important;
+            background: transparent;
+            &:hover,
+			&:focus {
+				background-color: rgba(0, 0, 0, 0.15) !important;
+			}
+        }
+	}
+}

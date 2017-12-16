@@ -1,0 +1,77 @@
+.social {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 2em auto
+}
+
+.social a {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: calc(5px + (11) * ((100vw - 320px) / (1280)));
+    margin-right: calc(5px + (11) * ((100vw - 320px) / (1280)))
+}
+
+@media screen and (max-width: 320px) {
+    .social a {
+        margin-left: 5px
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .social a {
+        margin-left: 16px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .social a {
+        margin-right: 5px
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .social a {
+        margin-right: 16px
+    }
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 3px;
+    display: inline-block
+}
+
+.icon use {
+    vertical-align: middle;
+    transform-origin: calc(50px / 2) calc(50px / 2)
+}
+
+.icon--shape-fill .icon__bg {
+    fill: white;
+    transition: all .2s ease
+}
+
+.icon--shape-fill .icon__art {
+    fill: black;
+    transform: scale(0.5);
+    transition: all .3s ease
+}
+
+.icon--shape-fill:hover {
+    cursor: pointer
+}
+
+.icon--shape-fill:hover .icon__bg {
+    opacity: 0;
+    transform: scale(0.3)
+}
+
+.icon--shape-fill:hover .icon__art {
+    fill: white;
+    transform: scale(0.7)
+}

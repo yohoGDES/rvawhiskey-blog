@@ -1,0 +1,45 @@
+/***
+
+Distillery Styles (distillery_styles.scss)
+
+This file represents the primary stylesheet generated
+and utilized by the theme. It is namespaced to avoid
+any potential enqueuing conflicts.
+
+No actual styles should be entered directly to this file.
+All theme styles should be organized and included in this
+file using @import.
+
+***/
+
+
+// Normalize reset
+@import "node_modules/normalize.scss/normalize";
+
+// Include Bourbon & Neat libraries (ready to add if needed)
+@import "node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "node_modules/bourbon-neat/app/assets/stylesheets/neat";
+
+// Import settings
+@import "settings/variables";
+@import "settings/mixins";
+
+
+
+// Import base styles
+@import "base/global";
+@import "base/typography";
+@import "base/layout";
+// @import "base/buttons";
+// @import "base/base-styles";
+
+
+@import "modules/header";
+@import "modules/footer";
+@import "modules/social";
+@import "modules/blog";
+@import "modules/key";
+
+// Distillery Toolbox Styles (use as needed)
+// @import "toolbox/breadcrumbs";
+// @import "toolbox/quantity-queries";
