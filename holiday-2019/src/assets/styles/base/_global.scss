@@ -1,0 +1,59 @@
+/***
+
+Global Styles
+
+Global styles are designed to handle some overarching settings
+such as viewport settings and box sizing.
+
+Styles added to this file should be limited to styles applied
+globally to base level elements.
+
+***/
+
+// Set viewport options
+@-webkit-viewport {width: device-width;}
+@-mos-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
+// Set box sizing
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+    background-color:$asphalt;
+    color:$white;
+    background-image: url('./assets/images/hero-2.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+
+p a {
+    color:$red;
+    text-decoration: none;
+    transition: all 275ms;
+    &:hover {
+        color:$red-dark;
+    }
+}

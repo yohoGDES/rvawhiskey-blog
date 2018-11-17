@@ -1,0 +1,7 @@
+.footer-wrapper {
+    max-width:$max-width;
+    margin:0 auto;
+    text-align: center;
+    padding:35px 25px;
+    padding-bottom: calc(60px + (90) * ((100vw - 320px) / (1280)));
+}

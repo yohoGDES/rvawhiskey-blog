@@ -1,0 +1,72 @@
+.whis-key {
+    margin:0;
+    padding:0;
+    li {
+        list-style: none;
+        display:block;
+        @include mq_max($desktop) {
+            padding:14px 22px;
+        }
+        @include mq($desktop) {
+            display:inline-block;
+        }
+    }
+}
+
+.key-block {
+    position: relative;
+    &:before {
+        color:$white !important;
+        text-transform:uppercase;
+        font-weight:bold;
+        font-size:8px;
+        display:inline-block;
+        min-width:14px;
+        top:3px;
+        left:-25px;
+        border-radius:50%;
+        position: absolute;
+        height:16px;
+        width:16px;
+        padding-top:3px;
+        text-align:center;
+    }
+    &--b:before {
+        content:'b';
+        background-color:$orange;
+    }
+    &--r:before {
+        content: 'r';
+        background-color:$red;
+    }
+    &--s:before {
+        content:'s';
+        background-color:$yellow-dark;
+    }
+    &--j:before {
+        content:'j';
+        background-color:$purple;
+    }
+    &--i:before {
+        content:'i';
+        background-color:$green;
+    }
+    &--m:before {
+        content:'m';
+        background-color:$teal-dark;
+    }
+    &--o:before {
+        content:'o';
+        background-color:$blue;
+    }
+}
+.key {
+    font-weight:bold;
+    margin-right:10px;
+    position: relative;
+    padding-left:25px;
+    .key-block:before {
+        left:-22px;
+    }
+    color:$gray_45;
+}

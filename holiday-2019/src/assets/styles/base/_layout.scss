@@ -1,0 +1,51 @@
+/***
+
+Layout
+
+***/
+
+.content-wrapper {
+	position: relative;
+	display:block;
+	padding-bottom:50px;
+}
+
+.content__inner {
+	background:white;
+	color:$txt;
+	width:95%;
+	@include mq($tablet) {
+		width:75%;
+	}
+	@include mq($max-width) {
+		width: $max-width / 1.2;
+	}
+	margin:0 auto;
+	padding:42px 35px;
+}
+
+.container {
+	width:100%;
+}
+
+.divider {
+	margin:35px 0;
+	background-color:$gray_15;
+	height:1px;
+	width:100%;
+	display:block;
+}
+
+.recommendation-list {
+	li {
+		margin-bottom:20px;
+		a {
+			color:$gray_60;
+			text-decoration: underline;
+			transition: all 275ms;
+			&:hover {
+				color:$red;
+			}
+		}
+	}
+}

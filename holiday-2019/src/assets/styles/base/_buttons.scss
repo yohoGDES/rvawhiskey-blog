@@ -1,0 +1,70 @@
+// Button Mixin - $display = inline, block, inline-block;
+@mixin button($display) {
+	// ref: "settings/_mixins.scss"
+	@include buttonColor;
+	@include buttonSize;
+	color:$white;
+	// font-family:$light;
+	font-weight:600;
+	border:0;
+	cursor: pointer;
+	display:$display;
+	border-radius:3px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	transition: all 275ms;
+	
+	@include mq(900px) {
+		&:hover {
+			color:$white;
+		}
+		&:focus {
+	    outline: 1px dotted #888;
+		}
+	}
+	&:disabled {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor: no-drop;
+	}
+}
+
+
+
+
+.msf-button {
+	@include button(inline-block);
+	&--full-width {
+		@include button(block);
+		width:100%;
+		margin-bottom:20px;
+	}
+	&--half {
+		// width:45%;
+	}
+	color:$white !important;
+	padding:14px 24px;
+
+	&--outline {
+		// box-shadow: 0 0 0 2px $light-blue-core inset;
+		// color:$light-blue-core !important;
+		&:hover, &:focus {
+			// box-shadow: 0 0 0 2px $light-blue-dark inset;
+			color:$white !important;
+			// background:$light-blue-dark;
+		}
+	}
+
+	&--ghost {
+        box-shadow: 0 0 0 2px #fdfdfd inset;
+        color: #fdfdfd !important;
+        &:hover,
+		&:focus {
+            // background: #fff !important;
+            box-shadow: 0 0 0 2px darken(#fdfdfd, 20%) inset;
+            color: darken(#fdfdfd, 20%) !important;
+        }
+    }
+}

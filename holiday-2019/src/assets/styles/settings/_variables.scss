@@ -1,0 +1,90 @@
+/***
+
+Sass Variables
+
+Enter all variables used across stylesheets here.
+These could include fonts, colors, measurements, etc.
+
+***/
+
+$baseline-px: 16;
+
+// COLORS
+$black: #000000;
+$white: #ffffff;
+$gray_5:  lighten($black, 95%);
+$gray_10: lighten($black, 90%);
+$gray_15: lighten($black, 85%);
+$gray_20: lighten($black, 80%);
+$gray_25: lighten($black, 75%);
+$gray_30: lighten($black, 70%);
+$gray_35: lighten($black, 65%);
+$gray_40: lighten($black, 60%);
+$gray_45: lighten($black, 55%);
+$gray_50: lighten($black, 50%);
+$gray_55: lighten($black, 45%);
+$gray_60: lighten($black, 40%);
+$gray_65: lighten($black, 35%);
+$gray_70: lighten($black, 30%);
+$gray_75: lighten($black, 25%);
+$gray_80: lighten($black, 20%);
+$gray_85: lighten($black, 15%);
+$gray_90: lighten($black, 10%);
+$gray_95: lighten($black, 5%);
+
+$primary: #004977;
+$primary-light: #558dad;
+$link: #037fb0;
+$alert: #d22f2f;
+
+$orange: #e67e22;
+$orange-dark: #d35400;
+$yellow: #f1c40f;
+$yellow-dark: #f39c12;
+
+
+$gray: #687680;
+$red: #e74c3c;
+$red-dark: #c0392b;
+$green: #2ecc71;
+$green-dark: #27ae60;
+$purple: #9b59b6;
+$purple-dark: #8e44ad;
+$teal: #1abc9c;
+$teal-dark: #16a085;
+$blue:#3498db;
+$blue-dark: #2980b9;
+
+$txt: #252525;
+
+$asphalt: #2c3e50;
+
+$colors: (
+	"gray" $gray,
+	"red" $red,
+	"ghost" #fff
+);
+
+
+// Size/Class, padding, font-size, line-height
+$sizes:
+	(large, em(12) em($baseline-px), 20px, 20px),
+	(medium, 12px 16px 10px, 18px, 16px),
+	(small, 8px, em(14), 12px),
+	(xsmall, 4px 5px, em(12), 10px);
+
+// Media Query Sizes
+$large: 1149px;
+$desktop: 959px;
+$tablet: 767px;
+$mobile: 512px;
+
+$max-width: 1300px;
+
+$mobile-offset: 315px;
+
+@include mq($tablet) {
+	$mobile-offset: 345px;
+}
+
+$transition: all 1000ms cubic-bezier(0.250, 0.250, 0.400, 1.105);

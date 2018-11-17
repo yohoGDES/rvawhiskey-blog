@@ -1,0 +1,75 @@
+/***
+
+Typography
+
+***/
+
+*, *:before, *:after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// $light:300;
+// $book:400;
+// $medium:500;
+// $semibold: 600;
+// $bold:700;
+
+$font-primary: "Playfair Display", serif;
+$font-secondary: "Libre Baskerville", serif;
+// $font-thin: "Optimist-Light", Arial, Helvetica;
+
+@mixin font($family) {
+    font-family:$family;
+    font-style:normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 0 20px;
+	@include textColor;
+	width:100%;
+	display:block;
+    font-family:$font-primary;
+}
+h1 {
+    font-size:34px;
+    @include mq($desktop) {
+        font-size:48px;
+    }
+	font-weight:600;
+	line-height: 1.1;
+    margin-bottom:30px;
+}
+h2 {
+	font-size: 42px;
+    color: #000000;
+    line-height: 1.2em;
+}
+h3 {
+	font-size: 32px;
+    font-weight: normal;
+    margin-top:30px;
+}
+h4 {
+    font-size: 26px;
+    font-weight: normal;
+}
+h5 {
+    font-size: 18px;
+    font-weight: normal;
+}
+p {
+	font-size:16px;
+	line-height:1.5;
+	font-family:$font-secondary;
+	color: $txt;
+}
+
+strong {
+	font-family:$font-secondary;
+}
+
+html, body {
+    font-family:$font-secondary;
+	font-style:normal;
+}

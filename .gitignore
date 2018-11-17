@@ -6,6 +6,7 @@ node_modules/*
 app/dist/*
 # public/**/*
 
+/holiday-2019/node_modules/*
 
 # Packages #
 ############
