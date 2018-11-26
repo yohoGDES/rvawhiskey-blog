@@ -20,6 +20,22 @@ export default {
 
 		return JSON.stringify(obj) === JSON.stringify({})
 	},
+	keySymbol(item) {
+		item = item.toLowerCase()
+		var name = item.split(' ')
+		var symbol = ''
+		if (item === 'moonshine') {
+			symbol = 'ms'
+		} else {
+			if (name.length > 1) {
+				symbol = name[0].charAt(0) + name[1].charAt(0).toLowerCase()
+			} else {
+				symbol = name[0].charAt(0)
+			}
+		}
+
+		return symbol
+	},
 	makeId: function() {
 		var text = ''
 		var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'

@@ -19,6 +19,17 @@
 					<option :value="price" v-for="price in priceRange" :key="price.index">{{price.name + ' ' + price.value }}</option>
 				</select>
 			</div>
+			<div class="list-filter">
+				<label for="">Sort By</label>
+				<select name="" id="" v-model="sortKey">
+					<option value="price">Price</option>
+					<option value="name">Name</option>
+				</select>
+			</div>
+			<div class="list-filter">
+				<input type="checkbox" v-model="virginiaOnly" :value="!virginiaOnly">
+				<label for="" class="inline">Virginia Only</label>
+			</div>
 		</div>
 		<div>
 			<button @click.prevent="toggleCreateNewList()">Create a List</button>
@@ -28,11 +39,11 @@
 			</div>
 		</div>
 		<ul class="recommendation-list" v-if="filteredData">
-			<li v-for="whiskey in filteredData" :key="whiskey.index" class="key-block" :class="'key-block--' + whiskey.type.charAt(0).toLowerCase()">
+			<li v-for="whiskey in filteredData" :key="whiskey.index" class="key-block" :class="'key-block--' + $util.keySymbol(whiskey.type)">
 				<item  :whiskey="whiskey"></item>
 				<span @click="barrelThief(whiskey)" v-if="createNewList">
-					<span v-if="newList.indexOf(whiskey) > -1" style="color:red;">- Remove Dram</span>
-					<span v-else style="color:green;">+ Add Dram</span>
+					<span v-if="newList.indexOf(whiskey) > -1" class="list-control list-control--remove"></span>
+					<span v-else class="list-control list-control--add"></span>
 				</span>
 			</li>
 		</ul>
@@ -60,8 +71,11 @@ export default {
 		return {
 			loading: false,
 			list: null,
+			virginia: null,
 			newList: [],
 			createNewList: false,
+			virginiaOnly: false,
+			sortKey: 'name',
 			newListName: '',
 			filterName: null,
 			filterType: 'all',
@@ -104,6 +118,7 @@ export default {
 			var type = this.filterType && this.filterType.toLowerCase()
 			var range = this.filterPriceRange
 			var data = this.list
+			var sortKey = this.sortKey
 
 			// Filter by name
 			if (name) {
@@ -126,6 +141,11 @@ export default {
 			// Remove items less than $10
 			data = data.filter(function(item) { return item.price > 10 })
 
+			// Remove items that aren't VA made
+			if (this.virginiaOnly) {
+				data = data.filter(function(item) { return item.virginiaMade })
+			}
+
 			// Remove Duplicates
 			data = data.filter((obj, pos, arr) => {
 				return arr.map(mapObj => mapObj['name']).indexOf(obj['name']) === pos
@@ -138,16 +158,17 @@ export default {
 				})
 			}
 
-			// if (sortKey) {
-			//   data = data.slice().sort(function (a, b) {
-			//     a = a[sortKey]
-			//     b = b[sortKey]
-			//     return (a === b ? 0 : a > b ? 1 : -1) * order
-			//   })
-			// }
+			if (sortKey === 'name') {
+				data = data.slice().sort(function(a, b) {
+					a = a[sortKey]
+					b = b[sortKey]
+					return (a === b ? 0 : a > b ? 1 : -1) * 1
+				})
+			} else {
+				// Order by Price
+				data = data.sort(function(a, b) { return a.price - b.price })
+			}
 
-			// Order by Price
-			data = data.sort(function(a, b) { return a.price - b.price })
 			return data
 		}
 	},
@@ -174,7 +195,6 @@ export default {
 		barrelThief(item) {
 			var list = this.newList
 			var el = this.$lodash.findIndex(list, { name: item.name })
-			console.log(el)
 			if (el > -1) {
 				list.splice(el, 1)
 			} else {
@@ -199,10 +219,10 @@ export default {
 		// 	})
 		// }
 
-		async function getWhiskey() {
+		async function getWhiskey(file) {
 			try {
 				vm.loading = true
-				const wes = await axios('/data/full-list.json')
+				const wes = await axios('/data/' + file + '.json')
 				return wes
 			} catch (e) {
 				vm.loading = false
@@ -210,9 +230,9 @@ export default {
 			}
 		}
 
-		getWhiskey().then(function(res) {
-			vm.loading = false
+		getWhiskey('full-final').then(function(res) {
 			vm.list = res.data
+			vm.loading = false
 		})
 	}
 }

@@ -35,17 +35,3 @@ Layout
 	width:100%;
 	display:block;
 }
-
-.recommendation-list {
-	li {
-		margin-bottom:20px;
-		a {
-			color:$gray_60;
-			text-decoration: underline;
-			transition: all 275ms;
-			&:hover {
-				color:$red;
-			}
-		}
-	}
-}

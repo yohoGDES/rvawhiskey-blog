@@ -3,8 +3,8 @@
 		<span @click="cancelList">Cancel</span>
 		<h4 v-if="newListName">{{newListName}}</h4>
 		<ul>
-			<li v-for="whiskey in newList" :key="whiskey.index" class="key-block" :class="'key-block--' + whiskey.type.charAt(0).toLowerCase()">
-				<item :whiskey="whiskey"></item> <span @click="removeItem(whiskey)" class="color:red;">Remove</span>
+			<li v-for="whiskey in newList" :key="whiskey.index" class="key-block" :class="'key-block--' + $util.keySymbol(whiskey.type)">
+				<item :whiskey="whiskey"></item> <span @click="removeItem(whiskey)" class="list-control list-control--remove"></span>
 			</li>
 		</ul>
 		<button>Save List</button>

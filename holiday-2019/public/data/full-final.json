@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"name": "1792 Bottled In Bond Kentucky Straight Bourbon",
 		"type": "Bourbon",
 		"price": "39.99"
@@ -29,11 +30,6 @@
 		"price": "39.99"
 	},
 	{
-		"name": "Abraham Bowman Sweet Sixteen Bourbon",
-		"type": "Bourbon",
-		"price": "69.99"
-	},
-	{
 		"name": "Ancient Age Bourbon",
 		"type": "Bourbon",
 		"price": "12.99"
@@ -57,11 +53,6 @@
 		"name": "Balcones Texas Blue Corn Bourbon",
 		"type": "Bourbon",
 		"price": "79.99"
-	},
-	{
-		"name": "Bare Knuckle Straight Bourbon Whiskey",
-		"type": "Bourbon",
-		"price": "39.99"
 	},
 	{
 		"name": "Barterhouse 20 Year Bourbon",
@@ -159,11 +150,6 @@
 		"price": "74.99"
 	},
 	{
-		"name": "Bowman Brothers Virginia Straight Bourbon",
-		"type": "Bourbon",
-		"price": "29.99"
-	},
-	{
 		"name": "Breckenridge Bourbon",
 		"type": "Bourbon",
 		"price": "49.99"
@@ -207,11 +193,6 @@
 		"name": "Calumet Farm Single Rack Black Bourbon",
 		"type": "Bourbon",
 		"price": "54.99"
-	},
-	{
-		"name": "Church Bourbon",
-		"type": "Bourbon",
-		"price": "49.99"
 	},
 	{
 		"name": "Clyde May's Holiday Dual Pack",
@@ -344,11 +325,6 @@
 		"price": "19.99"
 	},
 	{
-		"name": "Filibuster Bourbon",
-		"type": "Bourbon",
-		"price": "46.99"
-	},
-	{
 		"name": "Forged Oak Bourbon",
 		"type": "Bourbon",
 		"price": "69.99"
@@ -427,11 +403,6 @@
 		"name": "Hudson Baby Bourbon",
 		"type": "Bourbon",
 		"price": "59.99"
-	},
-	{
-		"name": "Hunter & Scott Bourbon Whiskey",
-		"type": "Bourbon",
-		"price": "38.89"
 	},
 	{
 		"name": "I W Harper Bourbon",
@@ -544,11 +515,6 @@
 		"price": "29.99"
 	},
 	{
-		"name": "John J Bowman Virginia Straight Bourbon",
-		"type": "Bourbon",
-		"price": "49.99"
-	},
-	{
 		"name": "Joseph Magnus Bourbon",
 		"type": "Bourbon",
 		"price": "91.99"
@@ -572,11 +538,6 @@
 		"name": "Knob Creek Single Barrel Reserve",
 		"type": "Bourbon",
 		"price": "48.99"
-	},
-	{
-		"name": "Kopper Kettle Virginia Straight Bourbon Whiskey",
-		"type": "Bourbon",
-		"price": "28.99"
 	},
 	{
 		"name": "Larceny Bourbon",
@@ -607,11 +568,6 @@
 		"name": "Maker's Mark Cask Strength",
 		"type": "Bourbon",
 		"price": "49.99"
-	},
-	{
-		"name": "Mccauley's Virginia Bourbon Whiskey",
-		"type": "Bourbon",
-		"price": "36.99"
 	},
 	{
 		"name": "Ironclad Bourbon",
@@ -764,11 +720,6 @@
 		"price": "129.99"
 	},
 	{
-		"name": "Ragged Branch Straight Bourbon Wheated",
-		"type": "Bourbon",
-		"price": "49.99"
-	},
-	{
 		"name": "Rebel Yell",
 		"type": "Bourbon",
 		"price": "19.99"
@@ -839,11 +790,6 @@
 		"price": "13.99"
 	},
 	{
-		"name": "Virginia Highland Whisky Chardonnay Cask Finish",
-		"type": "Whiskey",
-		"price": "64.99"
-	},
-	{
 		"name": "Wathen's Single Barrel Bourbon",
 		"type": "Bourbon",
 		"price": "39.99"
@@ -852,11 +798,6 @@
 		"name": "Weller C.y.p.b.Bourbon",
 		"type": "Bourbon",
 		"price": "39.99"
-	},
-	{
-		"name": "Whiskey 43",
-		"type": "Bourbon",
-		"price": "43.99"
 	},
 	{
 		"name": "Whoop & Holler",
@@ -1044,16 +985,6 @@
 		"price": "24.79"
 	},
 	{
-		"name": "Springfield Scratch Corn Whiskey",
-		"type": "Whiskey",
-		"price": "28.99"
-	},
-	{
-		"name": "White Label Corn Whiskey",
-		"type": "Whiskey",
-		"price": "32.49"
-	},
-	{
 		"name": "1792 High Rye Whiskey",
 		"type": "Rye",
 		"price": "39.99"
@@ -1067,11 +998,6 @@
 		"name": "Angel's Envy Rye Whiskey",
 		"type": "Rye",
 		"price": "89.99"
-	},
-	{
-		"name": "Bare Knuckle American Rye Whiskey",
-		"type": "Rye",
-		"price": "45.99"
 	},
 	{
 		"name": "Basil Hayden's Dark Rye",
@@ -1099,21 +1025,6 @@
 		"price": "29.49"
 	},
 	{
-		"name": "Catoctin Creek Roundstone Rye Whiskey 92 Proof",
-		"type": "Rye",
-		"price": "52.79"
-	},
-	{
-		"name": "Catoctin Creek Roundstone Rye Whisky",
-		"type": "Rye",
-		"price": "45.09"
-	},
-	{
-		"name": "Copper Fox Rye Whiskey",
-		"type": "Rye",
-		"price": "44.99"
-	},
-	{
 		"name": "Crown Royal Northern Harvest Rye Whiskey",
 		"type": "Rye",
 		"price": "29.99"
@@ -1122,11 +1033,6 @@
 		"name": "E H Taylor Jr.Straight Rye Whiskey",
 		"type": "Rye",
 		"price": "59.99"
-	},
-	{
-		"name": "Filibuster Dual Cask Rye Whiskey",
-		"type": "Rye",
-		"price": "46.99"
 	},
 	{
 		"name": "George Dickel Rye Whiskey",
@@ -1259,11 +1165,6 @@
 		"price": "49.99"
 	},
 	{
-		"name": "Ragged Branch Straight Bourbon Rye",
-		"type": "Rye",
-		"price": "49.99"
-	},
-	{
 		"name": "Redemption Rye",
 		"type": "Rye",
 		"price": "32.99"
@@ -1302,11 +1203,6 @@
 		"name": "Templeton Rye Whiskey",
 		"type": "Rye",
 		"price": "39.99"
-	},
-	{
-		"name": "Twin Creeks Rye",
-		"type": "Rye",
-		"price": "31.69"
 	},
 	{
 		"name": "Whistle Pig Boss Hog Black Prince Rye",
@@ -1349,69 +1245,9 @@
 		"price": "36.99"
 	},
 	{
-		"name": "Woods Mills Orchard Rye",
-		"type": "Rye",
-		"price": "37.89"
-	},
-	{
 		"name": "1 st Sugar Moonshine",
 		"type": "Moonshine",
 		"price": "18.99"
-	},
-	{
-		"name": "5 Mile Mountain Elderberry Moonshine",
-		"type": "Moonshine",
-		"price": "29.99"
-	},
-	{
-		"name": "5 Mile Mountain Vanilla Plum Moonshine",
-		"type": "Moonshine",
-		"price": "32.99"
-	},
-	{
-		"name": "Appalachian Peach Pie Moonshine",
-		"type": "Moonshine",
-		"price": "25.79"
-	},
-	{
-		"name": "Appalachian Strawberry Pie Moonshine",
-		"type": "Moonshine",
-		"price": "25.79"
-	},
-	{
-		"name": "Belle Isle Blood Orange Moonshine",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Belle Isle Cold Brew Coffee",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Belle Isle Premium Honey Habanero Moonshine",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Belle Isle Premium Moonshine",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Belle Isle Ruby Red Grapefruit Moonshine",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Bondurant Brother's Moonshine",
-		"type": "Moonshine",
-		"price": "24.99"
-	},
-	{
-		"name": "Butcher Holler Celebrity Moonshine",
-		"type": "Moonshine",
-		"price": "29.99"
 	},
 	{
 		"name": "Firefly Apple Pie Mooneshine",
@@ -1554,11 +1390,6 @@
 		"price": "24.99"
 	},
 	{
-		"name": "Tim Smith's Climax Moonshine",
-		"type": "Moonshine",
-		"price": "29.99"
-	},
-	{
 		"name": "Tim Smith's Climax Moonshine Fire #32",
 		"type": "Moonshine",
 		"price": "29.99"
@@ -1567,26 +1398,6 @@
 		"name": "Tim Smith's Climax Moonshine Fire #32",
 		"type": "Moonshine",
 		"price": "34.99"
-	},
-	{
-		"name": "Virginia Lightning Apple Pie Moonshine",
-		"type": "Moonshine",
-		"price": "21.99"
-	},
-	{
-		"name": "Virginia Lightning Cherry Moonshine",
-		"type": "Moonshine",
-		"price": "23.19"
-	},
-	{
-		"name": "Virginia Lightning Moonshine",
-		"type": "Moonshine",
-		"price": "20.99"
-	},
-	{
-		"name": "Virginia Lightning Moonshine",
-		"type": "Moonshine",
-		"price": "9.99"
 	},
 	{
 		"name": "Virginia Lightning Moonshine",
@@ -1669,11 +1480,6 @@
 		"price": "79.99"
 	},
 	{
-		"name": "Bare Knuckle American Wheat Whiskey",
-		"type": "Whiskey",
-		"price": "35.99"
-	},
-	{
 		"name": "Bernheim Original Wheat Whiskey",
 		"type": "Whiskey",
 		"price": "29.99"
@@ -1687,11 +1493,6 @@
 		"name": "Clyde May's Whiskey",
 		"type": "Whiskey",
 		"price": "32.99"
-	},
-	{
-		"name": "Copper Fox Peachwood American Single Malt",
-		"type": "Whiskey",
-		"price": "53.99"
 	},
 	{
 		"name": "Defiant Whisky",
@@ -1712,21 +1513,6 @@
 		"name": "Early Times Kentucky Whisky",
 		"type": "Whiskey",
 		"price": "11.99"
-	},
-	{
-		"name": "Isaac Bowman Port Finish Whiskey",
-		"type": "Whiskey",
-		"price": "39.99"
-	},
-	{
-		"name": "Kopper Kettle Virginia Whiskey Bonded",
-		"type": "Whiskey",
-		"price": "39.99"
-	},
-	{
-		"name": "Kopper Kettle Whiskey",
-		"type": "Whiskey",
-		"price": "29.99"
 	},
 	{
 		"name": "Michter's US1 Sour Mash",
@@ -1752,31 +1538,6 @@
 		"name": "Virginia Black",
 		"type": "Whiskey",
 		"price": "34.99"
-	},
-	{
-		"name": "Virginia Highland Whiskey Cider Cask Finish",
-		"type": "Whiskey",
-		"price": "64.99"
-	},
-	{
-		"name": "Virginia Highland Whisky Brewer's Batch",
-		"type": "Whiskey",
-		"price": "64.99"
-	},
-	{
-		"name": "Virginia Highland Whisky Cuvee Cask Finish",
-		"type": "Whiskey",
-		"price": "64.99"
-	},
-	{
-		"name": "Virginia Highland Whisky Rum Cask Finish",
-		"type": "Whiskey",
-		"price": "64.99"
-	},
-	{
-		"name": "Virginia Highland Whisky Sherry Cask Finish",
-		"type": "Whiskey",
-		"price": "64.99"
 	},
 	{
 		"name": "Wasmund's Single Malt",
@@ -1827,11 +1588,6 @@
 		"name": "Black Velvet Toasted Caramel Whiskey",
 		"type": "Flavored",
 		"price": "12.99"
-	},
-	{
-		"name": "Blackback Honey Rye Whiskey",
-		"type": "Flavored",
-		"price": "38.89"
 	},
 	{
 		"name": "Breckenridge Spiced Whiskey",
@@ -2159,39 +1915,9 @@
 		"price": "31.99"
 	},
 	{
-		"name": "Kopper Kettle Apple Whiskey",
-		"type": "Flavored",
-		"price": "24.99"
-	},
-	{
 		"name": "Maker's Mark Mint Julep",
 		"type": "Flavored",
 		"price": "39.99"
-	},
-	{
-		"name": "Murlarkey Banana Whiskey",
-		"type": "Flavored",
-		"price": "29.99"
-	},
-	{
-		"name": "Murlarkey Cincerity",
-		"type": "Flavored",
-		"price": "29.99"
-	},
-	{
-		"name": "Murlarkey Cinnamon Whiskey",
-		"type": "Flavored",
-		"price": "29.99"
-	},
-	{
-		"name": "Murlarkey Clemoncy Whiskey",
-		"type": "Flavored",
-		"price": "29.99"
-	},
-	{
-		"name": "Murlarkey Lemon Whiskey",
-		"type": "Flavored",
-		"price": "29.99"
 	},
 	{
 		"name": "Old Camp Peach Pecan Whiskey",
@@ -2757,11 +2483,6 @@
 		"name": "Suntory Toki Whiskey",
 		"type": "Japanese",
 		"price": "39.99"
-	},
-	{
-		"name": "Virginia Highland Whisky",
-		"type": "Whiskey",
-		"price": "57.99"
 	},
 	{
 		"name": "Yamazaki 12 Year Whisky",
@@ -3747,5 +3468,397 @@
 		"name": "Tomatin Scotch Whisky 14 Yr Old",
 		"type": "Scotch",
 		"price": "81.99"
+	},
+	{
+		"name": "Isaac Bowman Port Finish Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/isaac-bowman-port-finish-whiskey",
+		"price": "39.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Bondurant Brother's Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/bondurant-brothers-moonshine",
+		"price": "24.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Springfield Scratch Corn Whiskey",
+		"type": "Corn",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/springfield-scratch-corn-whiskey",
+		"price": "28.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Belle Isle Premium Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/belle-isle-premium-moonshine",
+		"price": "19.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Filibuster Bourbon",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/filibuster-bourbon",
+		"price": "46.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Kopper Kettle Virginia Whiskey Bonded",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/kopper-kettle-virginia-whiskey-bonded",
+		"price": "35.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Blackback Honey Rye Whiskey",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/blackback-honey-rye-whiskey",
+		"price": "38.89",
+		"virginiaMade": true
+	},
+	{
+		"name": "Murlarkey Cinnamon Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/murlarkey-cinnamon-whiskey",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Church Bourbon",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/church-bourbon",
+		"price": "42.49",
+		"virginiaMade": true
+	},
+	{
+		"name": "Twin Creeks Rye",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/twin-creeks-rye",
+		"price": "31.69",
+		"virginiaMade": true
+	},
+	{
+		"name": "Murlarkey Lemon Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/murlarkey-lemon-whiskey",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-highland-whisky",
+		"price": "57.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Murlarkey Clemoncy Whiskey",
+		"type": "White",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/murlarkey-clemoncy-whiskey",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Murlarkey Cincerity",
+		"type": "White",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/murlarkey-cincerity",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "5 Mile Mountain Elderberry Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/5-mile-mountain-elderberry-moonshine",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Appalachian Peach Pie Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/appalachian-peach-pie-moonshine",
+		"price": "25.79",
+		"virginiaMade": true
+	},
+	{
+		"name": "Appalachian Strawberry Pie Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/appalachian-strawberry-pie-moonshine",
+		"price": "25.79",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Lightning Cherry Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-lightning-cherry-moonshine",
+		"price": "11.69",
+		"virginiaMade": true
+	},
+	{
+		"name": "Woods Mills Orchard Rye",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/woods-mills-orchard-rye",
+		"price": "37.89",
+		"virginiaMade": true
+	},
+	{
+		"name": "Belle Isle Premium Honey Habanero Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/belle-isle-premium-honey-habanero-moonshine",
+		"price": "19.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Lightning Apple Pie Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-lightning-apple-pie-moonshine",
+		"price": "21.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Kopper Kettle Apple Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/kopper-kettle-apple-whiskey",
+		"price": "21.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Kopper Kettle Virginia Straight Bourbon Whiskey",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/kopper-kettle-virginia-straight-bourbon-whiskey",
+		"price": "24.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "5 Mile Mountain Vanilla Plum Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/5-mile-mountain-vanilla-plum-moonshine",
+		"price": "32.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Filibuster Dual Cask Rye Whiskey",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/filibuster-dual-cask-rye-whiskey",
+		"price": "43.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "John J Bowman Virginia Straight Bourbon",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/john-j-bowman-virginia-straight-bourbon",
+		"price": "47.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Kopper Kettle Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/kopper-kettle-whiskey",
+		"price": "27.19",
+		"virginiaMade": true
+	},
+	{
+		"name": "Hunter & Scott Bourbon Whiskey",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/hunter--scott-bourbon-whiskey",
+		"price": "38.89",
+		"virginiaMade": true
+	},
+	{
+		"name": "Belle Isle Cold Brew Coffee",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/belle-isle-cold-brew-coffee",
+		"price": "24.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Catoctin Creek Roundstone Rye Whisky",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/catoctin-creek-roundstone-rye-whisky",
+		"price": "45.09",
+		"virginiaMade": true
+	},
+	{
+		"name": "Murlarkey Banana Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/murlarkey-banana-whiskey",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Ragged Branch Straight Bourbon Rye",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/ragged-branch-straight-bourbon-rye",
+		"price": "49.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Ragged Branch Straight Bourbon Wheated",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/ragged-branch-straight-bourbon-wheated",
+		"price": "49.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Whiskey 43",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/whiskey-43",
+		"price": "43.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Catoctin Creek Roundstone Rye Whiskey 92 Proof",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/catoctin-creek-roundstone-rye-whiskey-92-proof",
+		"price": "52.79",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whiskey Cider Cask Finish",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-highland-whiskey-cider-cask-finish",
+		"price": "64.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Bare Knuckle Straight Bourbon Whiskey",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/bare-knuckle-straight-bourbon-whiskey",
+		"price": "39.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky Brewer's Batch",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-highland-whisky-brewers-batch",
+		"price": "64.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Copper Fox Rye Whiskey",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/copper-fox-rye-whiskey",
+		"price": "44.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Bare Knuckle American Rye Whiskey",
+		"type": "Rye",
+		"url": "http://www.abc.virginia.gov/products/rye/bare-knuckle-american-rye-whiskey",
+		"price": "45.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Tim Smith's Climax Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/tim-smiths-climax-moonshine",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Lightning Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-lightning-moonshine",
+		"price": "15.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Lightning Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-lightning-moonshine",
+		"price": "20.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Belle Isle Ruby Red Grapefruit Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/belle-isle-ruby-red-grapefruit-moonshine",
+		"price": "19.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Bare Knuckle American Wheat Whiskey",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/bare-knuckle-american-wheat-whiskey",
+		"price": "35.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Butcher Holler Celebrity Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/butcher-holler-celebrity-moonshine",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "White Label Corn Whiskey",
+		"type": "Corn",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/white-label-corn-whiskey",
+		"price": "32.49",
+		"virginiaMade": true
+	},
+	{
+		"name": "Belle Isle Blood Orange Moonshine",
+		"type": "Moonshine",
+		"url": "http://www.abc.virginia.gov/products/all-products/belle-isle-blood-orange-moonshine",
+		"price": "19.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Copper Fox Peachwood American Single Malt",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/copper-fox-peachwood-american-single-malt",
+		"price": "53.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky Sherry Cask Finish",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/virginia-spirits/virginia-highland-whisky-sherry-cask-finish",
+		"price": "64.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky Chardonnay Cask Finish",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/all-products/virginia-highland-whisky-chardonnay-cask-finish",
+		"price": "64.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Bowman Brothers Virginia Straight Bourbon",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/bowman-brothers-virginia-straight-bourbon",
+		"price": "29.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Mccauley's Virginia Bourbon Whiskey",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/bourbon/mccauleys-virginia-bourbon-whiskey",
+		"price": "36.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Abraham Bowman Sweet Sixteen Bourbon",
+		"type": "Bourbon",
+		"url": "http://www.abc.virginia.gov/products/all-products/abraham-bowman-sweet-sixteen-bourbon",
+		"price": "69.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky Cuvee Cask Finish",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/all-products/virginia-highland-whisky-cuvee-cask-finish",
+		"price": "64.99",
+		"virginiaMade": true
+	},
+	{
+		"name": "Virginia Highland Whisky Rum Cask Finish",
+		"type": "Other",
+		"url": "http://www.abc.virginia.gov/products/all-products/virginia-highland-whisky-rum-cask-finish",
+		"price": "64.99",
+		"virginiaMade": true
 	}
 ]

@@ -59,6 +59,31 @@
         content:'o';
         background-color:$blue;
     }
+    &--f:before {
+        content:'fl';
+        background-color:$orange-dark;
+    }
+    &--w:before {
+        content:'w';
+        background-color:$orange;
+	}
+    &--c:before {
+        content:'c';
+        background-color:#b71540;
+	}
+    &--tw:before {
+        content:'t';
+        background-color:#60a3bc;
+	}
+    &--ms:before {
+        content:'ms';
+        background-color:#f6b93b;
+	}
+    &--bw:before {
+        content:'bl';
+        background-color:#0a3d62;
+	}
+	
 }
 .key {
     font-weight:bold;
