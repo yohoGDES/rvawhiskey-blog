@@ -1,6 +1,11 @@
 <template>
 	<ul class="whis-key">
-		<li class="key key--b">
+		<li v-for="type in types" :key="type.index" class="key">
+			<span class="key-block" :class="'key-block--' + $util.keySymbol(type)">
+				{{type}}
+			</span>
+		</li>
+		<!-- <li class="key key--b">
 			<span class="key-block key-block--b"></span>
 			Bourbon
 		</li>
@@ -27,6 +32,16 @@
 		<li class="key key--o">
 			<span class="key-block key-block--o"></span>
 			Other
-		</li>
+		</li> -->
 	</ul>
 </template>
+<script>
+export default {
+	name: 'whis-key',
+	props: {
+		types: {
+			type: Array
+		}
+	}
+}
+</script>

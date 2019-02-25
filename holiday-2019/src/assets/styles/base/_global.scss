@@ -57,3 +57,20 @@ p a {
         color:$red-dark;
     }
 }
+
+.intro__headline {
+	text-align: center;
+	font-weight:100;
+	margin-top:20px;
+	@include mq($desktop) {
+		margin-top:50px;
+		font-size:62px;
+		font-size:62px;
+	}
+}
+h2 {
+	@include mq_max($desktop) {
+		text-align:center;
+		font-size:28px;
+	}
+}

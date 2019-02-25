@@ -1,7 +1,9 @@
 <template>
-	<a :href="url(whiskey)" target="_blank" v-if="whiskey">
-		{{whiskey.name}} | {{whiskey.price}}<span class="virginia-made" v-if="whiskey.virginiaMade"></span>
-	</a>
+	<div>
+		<a :href="url(whiskey)" target="_blank" v-if="whiskey && url(whiskey)">
+			{{whiskey.name}} | {{whiskey.price}}<span class="virginia-made" v-if="whiskey.virginiaMade"></span><span class="virginia-made virginia-made--oos" v-if="whiskey.outOfState"></span>
+		</a>
+	</div>
 </template>
 <script>
 export default {

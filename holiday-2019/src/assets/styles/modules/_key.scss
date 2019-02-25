@@ -41,7 +41,7 @@
     }
     &--s:before {
         content:'s';
-        background-color:$yellow-dark;
+        background-color:$yellow;
     }
     &--j:before {
         content:'j';
@@ -60,8 +60,8 @@
         background-color:$blue;
     }
     &--f:before {
-        content:'fl';
-        background-color:$orange-dark;
+		content:'f';
+		background-color:lighten($blue, 10%);
     }
     &--w:before {
         content:'w';
@@ -87,7 +87,8 @@
 }
 .key {
     font-weight:bold;
-    margin-right:10px;
+	margin-right:10px;
+	font-size:14px;
     position: relative;
     padding-left:25px;
     .key-block:before {

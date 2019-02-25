@@ -26,21 +26,72 @@
 	.new-list & {
 		display:none;
 	}
+	&--oos {
+		position:relative;
+		&:before {
+			@include mq_max($desktop) {
+				content: '';
+				width: 15px;
+				left: -5px;
+				top: 50%;
+				left: 20.8%;
+				height: 1px;
+				background-color: #e74c3c;
+				display: block;
+				position: absolute;
+			}
+			content: '';
+			width:25px;
+			left:-5px;
+			top:50%;
+			left:2.5%;
+			height:2px;
+			background-color:$red;
+			display:block;
+			position: absolute;
+		}
+		&:before {
+			transform:rotate(45deg) translateY(-50%);
+		}
+		&:after {
+			@include mq_max($desktop) {
+				content: '';
+				position: absolute;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+				left: 25%;
+				width: 15px;
+				height: 15px;
+				border-radius: 100%;
+				border: 1px solid #e74c3c;
+			}
+			content: '';
+			position:absolute;
+			top:50%;
+			transform:translateY(-50%);
+			left:2%;
+			width:25px;
+			height:25px;
+			border-radius:100%;
+			border: 2px solid $red;
+		}
+	}
 	&:after {
 		// content: 'Virginia Made';
-		position: absolute;
-		right:-85px;
-		transform:translateX(50px) translateY(-50%);
-		top:50%;
-		font-size:9px;
-		opacity:0;
-		transition: all 275ms;
-		padding:4px 7px;
-		background: $gray_35;
-		color:$white;
-		// color:$txt;
-		border-radius:3px;
-		font-weight:bold;
+		// position: absolute;
+		// right:-85px;
+		// transform:translateX(50px) translateY(-50%);
+		// top:50%;
+		// font-size:9px;
+		// opacity:0;
+		// transition: all 275ms;
+		// padding:4px 7px;
+		// background: $gray_35;
+		// color:$white;
+		// // color:$txt;
+		// border-radius:3px;
+		// font-weight:bold;
 	}
 	&:hover {
 		&:after {
@@ -84,5 +135,22 @@
 		&:after {
 			transform: translateY(-50%) rotate(90deg);
 		}
+	}
+}
+
+
+.list-wrap {
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	@include mq($desktop) {
+		flex-wrap:nowrap;
+	}
+}
+
+.list__blocks {
+	width:100%;
+	@include mq($desktop) {
+		width:75%;
 	}
 }

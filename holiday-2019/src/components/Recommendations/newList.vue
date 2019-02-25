@@ -7,7 +7,7 @@
 				<item :whiskey="whiskey"></item> <span @click="removeItem(whiskey)" class="list-control list-control--remove"></span>
 			</li>
 		</ul>
-		<button>Save List</button>
+		<button @click="saveList()">Save List</button>
 	</div>
 </template>
 <script>
@@ -39,6 +39,7 @@ export default {
 				name: this.newListName,
 				list: this.newList
 			}
+			localStorage.setItem('list', JSON.stringify(list))
 			axios.post('', list)
 				.then(function(res) {
 					console.log(res)

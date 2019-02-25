@@ -1,8 +1,11 @@
 import lodash from 'lodash'
 import Vue from 'vue'
+import Multiselect from 'vue-multiselect'
 import App from './App.vue'
 import util from './helpers/utilities.vue'
 import store from './store'
+
+Vue.component(Multiselect)
 
 // Init Lodash in Vue
 Object.defineProperty(Vue.prototype, '$lodash', {

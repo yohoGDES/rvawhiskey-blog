@@ -14,14 +14,16 @@ Layout
 	background:white;
 	color:$txt;
 	width:95%;
+	padding:42px 3%;
 	@include mq($tablet) {
 		width:75%;
+		padding:42px 35px;
 	}
 	@include mq($max-width) {
 		width: $max-width / 1.2;
 	}
 	margin:0 auto;
-	padding:42px 35px;
+	
 }
 
 .container {

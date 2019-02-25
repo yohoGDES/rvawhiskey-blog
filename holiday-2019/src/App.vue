@@ -6,8 +6,11 @@
 		<main class="content-wrapper">
             <div class="content__inner">
 				<introduction></introduction>
-				<key></key>
-				<recommendation-list></recommendation-list>
+				<recommendation-list v-if="!editLists"></recommendation-list>
+				<list-builder v-else></list-builder>
+				<p>
+                    If you're looking for something that falls out of the price range of this list please feel free to reach out to us on social media (<a href="https://www.instagram.com/rvawhiskey" target="_blank">instagram</a>, <a href="https://www.facebook.com/rvawhiskey" target="_blank">facebook</a>, <a href="https://twitter.com/rvawhiskey">twitter</a>) and we will be happy to offer some recommendations!
+                </p>
             </div>
 		</main>
 		<siteFooter></siteFooter>
@@ -22,7 +25,8 @@ import hero from '@/components/header.vue'
 import siteFooter from '@/components/footer.vue'
 import introduction from '@/components/introduction.vue'
 import recommendationList from '@/components/Recommendations/list.vue'
-import key from '@/components/key.vue'
+import listBuilder from '@/components/Recommendations/builder.vue'
+
 export default {
 	name: 'app',
 	components: {
@@ -31,7 +35,12 @@ export default {
 		siteFooter,
 		introduction,
 		recommendationList,
-		key
+		listBuilder
+	},
+	data() {
+		return {
+			editLists: false
+		}
 	}
 }
 </script>

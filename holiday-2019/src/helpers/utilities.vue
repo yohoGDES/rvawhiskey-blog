@@ -26,6 +26,8 @@ export default {
 		var symbol = ''
 		if (item === 'moonshine') {
 			symbol = 'ms'
+		} else if (item === 'french') {
+			symbol = 'f'
 		} else {
 			if (name.length > 1) {
 				symbol = name[0].charAt(0) + name[1].charAt(0).toLowerCase()
